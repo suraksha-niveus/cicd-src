@@ -30,8 +30,8 @@ def health():
 
 @app.route("/")
 def home():
-   return "welcome to DevOps"
-  #return "CI/CD with Jenkins & ArgoCD"
+   #return "welcome to DevOps"
+  return "CI/CD with Jenkins & ArgoCD"
 	#return "ArgoCD"
 	
    
