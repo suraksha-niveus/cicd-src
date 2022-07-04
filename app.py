@@ -30,7 +30,10 @@ def health():
 
 @app.route("/")
 def home():
-    return "welcome to DevOps"
+    #return "welcome to DevOps"
+  #return "CI/CD with Jenkins & ArgoCD"
+	return "ArgoCD"
+	
    
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=int("5000"), debug=True)
